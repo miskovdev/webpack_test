@@ -74,7 +74,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
  * Created by Eduard.Miskov on 25.09.2017.
  */
 
-let menu = Object(__WEBPACK_IMPORTED_MODULE_0__main__["a" /* default */])(['Main', 'About', 'Portfolio']);
+let menu = Object(__WEBPACK_IMPORTED_MODULE_0__main__["a" /* default */])(['Main', 'About us', 'Portfolio']);
 document.body.appendChild(menu);
 
 /***/ }),
