@@ -1,6 +1,8 @@
 /**
  * Created by Eduard.Miskov on 25.09.2017.
  */
+import './menu.scss';
+
 export default function (array, className) {
     let menu = document.createElement("ul");
     menu.className = className;

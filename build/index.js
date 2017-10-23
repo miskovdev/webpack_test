@@ -60,25 +60,11 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__main__ = __webpack_require__(1);
-/**
- * Created by Eduard.Miskov on 25.09.2017.
- */
-
-let menu = Object(__WEBPACK_IMPORTED_MODULE_0__main__["a" /* default */])(['Main', 'About us', 'Portfolio']);
-document.body.appendChild(menu);
-
-/***/ }),
-/* 1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -95,6 +81,22 @@ document.body.appendChild(menu);
     menu.innerHTML = listItems;
     return menu;
 });
+
+/***/ }),
+/* 1 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_menu_menu__ = __webpack_require__(0);
+/**
+ * Created by Eduard.Miskov on 25.09.2017.
+ */
+
+var menu = Object(__WEBPACK_IMPORTED_MODULE_0__components_menu_menu__["a" /* default */])(['Main', 'About us', 'Portfolio'], 'menu');
+document.body.appendChild(menu);
+
+console.log('fuck dis console');
 
 /***/ })
 /******/ ]);
