@@ -9,3 +9,4 @@ var menu = createMenu(['Main', 'About us', 'Portfolio'], 'menu');
 document.body.appendChild(menu);
 
 console.log('blog js');
+console.log($);
