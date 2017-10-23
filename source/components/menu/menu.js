@@ -2,6 +2,7 @@
  * Created by Eduard.Miskov on 25.09.2017.
  */
 import './menu.scss';
+import 'normalize.css';
 
 export default function (array, className) {
     let menu = document.createElement("ul");
