@@ -5,9 +5,9 @@ import './menu.scss';
 import 'normalize.css';
 
 export default function (array, className) {
-    let menu = document.createElement("ul");
+    var menu = document.createElement("ul");
     menu.className = className;
-    let listItems = '';
+    var listItems = '';
     array.forEach(function (item) {
         listItems += '<li>' + item + '</li>';
     });
