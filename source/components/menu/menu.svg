@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b7b7b7;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-opacity: 0.4;
+        stroke: gray;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <rect id="Прямоугольник_скругл._углы_1" data-name="Прямоугольник, скругл. углы 1" class="cls-1" x="2" y="17" width="45" height="45" rx="3" ry="3"/>
+  <rect id="Прямоугольник_скругл._углы_1_копия" data-name="Прямоугольник, скругл. углы 1 копия" class="cls-2" x="17" y="2" width="45" height="45" rx="3" ry="3"/>
+</svg>

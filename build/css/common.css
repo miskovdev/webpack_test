@@ -446,7 +446,9 @@ template {
   display: none;
 }
 ul {
-  border: 1px solid #333333; }
+  border: 1px solid #333333;
+  background: url(../images/menu.svg) 8px 50% no-repeat;
+  background-size: 24px; }
   ul li {
     display: inline-block;
     padding: 10px 20px;
